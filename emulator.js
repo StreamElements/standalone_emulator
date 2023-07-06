@@ -4,7 +4,7 @@ let environment = "production"
 // load overlay. get channel id and switch staging/production
 async function loadOverlay(url) {
     let overlayUrl = document.getElementById("url").value;
-    if (overlayUrl.includes("staging")) environment = "stoging";
+    if (overlayUrl.includes("staging")) environment = "staging";
     let iframe = document.getElementById("iframe");
     iframe.src = overlayUrl;
     overlayUrlArr = overlayUrl.split("/");
