@@ -1,4 +1,4 @@
-# standalong_emulator
+# standalone_emulator
 a stand-alone page to test overlays and elements
 
 To use this:
